@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/collideCube.cs" />
+    <Compile Include="Assets/CollisionDetect.cs" />
     <Compile Include="Assets/pushCube.cs" />
   </ItemGroup>
   <ItemGroup>
