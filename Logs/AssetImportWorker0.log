@@ -2819,3 +2819,11 @@ Received Import Request.
 Start importing Assets/CollisionDetect.cs using Guid(6e8b023d1be3c4131a39ade069655b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd152c66b5321cd8088d9e1c84c18c3f0') in 0.001208 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 208.758587 seconds.
+  path: Assets/CollisionDetect.cs
+  artifactKey: Guid(6e8b023d1be3c4131a39ade069655b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CollisionDetect.cs using Guid(6e8b023d1be3c4131a39ade069655b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d81d9513024150f7544ab83d9a2bdf') in 0.000321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
