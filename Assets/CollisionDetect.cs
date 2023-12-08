@@ -15,4 +15,8 @@ public class CollisionDetect : MonoBehaviour
     {
         
     }
+    void OnCollisionEnter(CollisionDetect collider)
+    {
+        Debug.Log(collider.gameObject.name)
+    }
 }
