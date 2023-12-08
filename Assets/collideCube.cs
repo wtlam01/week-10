@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class collideCube : MonoBehaviour
 {
-    private Rigidbody erb
+    private Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
