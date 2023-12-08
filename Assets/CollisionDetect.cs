@@ -15,8 +15,10 @@ public class CollisionDetect : MonoBehaviour
     {
         
     }
-    void OnCollisionEnter(CollisionDetect collider)
+    void OnCollisionEnter(Collision collider)
     {
+        //if the name = sphere
+        
         Debug.Log(collider.gameObject.name)
     }
 }
