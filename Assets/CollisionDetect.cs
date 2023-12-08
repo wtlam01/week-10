@@ -15,7 +15,7 @@ public class CollisionDetect : MonoBehaviour
     {
         
     }
-    void OnCollisionEnter(Collision collider)
+        void OnCollisionEnter(Collision collider)
     {
         //if the name = sphere
         if(collider.gameObject.tag =="ball")
