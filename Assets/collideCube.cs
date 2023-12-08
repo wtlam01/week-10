@@ -17,6 +17,7 @@ public class collideCube : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space))
         {
          rb.AddForce(Vector3.up * 300);   
+         rb.velocity = Victor3.forward * 13f;
         }
     }
 }
