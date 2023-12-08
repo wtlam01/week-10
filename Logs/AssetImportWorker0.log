@@ -1825,3 +1825,11 @@ Received Import Request.
 Start importing Assets/collideCube.cs using Guid(683b0d53dceff4cd4834b194d5012f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab45abe7737ecb1166018499cf0f840') in 0.001374 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 123.066265 seconds.
+  path: Assets/collideCube.cs
+  artifactKey: Guid(683b0d53dceff4cd4834b194d5012f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/collideCube.cs using Guid(683b0d53dceff4cd4834b194d5012f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996117ea4f6adc349aaf01430591a5c7') in 0.000260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

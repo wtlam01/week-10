@@ -18,15 +18,17 @@ public class pushCube : MonoBehaviour
     {
         Counter++;
         Debug.Log(Counter);
-        
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-          Destroy(this.gameObject);   
-        }
-    }
+
+    //     if(Input.GetKeyDown(KeyCode.Space))
+    //     {
+    //       Destroy(this.gameObject);   
+    //     }
+    // }
 
 //     void OnMouseDown()
 //     {
 //        Destroy(this.gameObject);
 //     }
+ 
  }
+}
