@@ -14,10 +14,14 @@ public class pushCube : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+          Destroy(this.gameObject);   
+        }
     }
-    void OnMouseDown()
-    {
-       Destroy(this.gameObject);
-    }
-}
+
+//     void OnMouseDown()
+//     {
+//        Destroy(this.gameObject);
+//     }
+// }
