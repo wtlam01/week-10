@@ -8,12 +8,16 @@ public class pushCube : MonoBehaviour
     void Start()
     {
         Debug.Log("Hello World");
-        Destroy(this.gameObject);
+       // Destroy(this.gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+    void OnMouseDown()
+    {
+       Destroy(this.gameObject);
     }
 }
