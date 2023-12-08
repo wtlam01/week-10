@@ -334,11 +334,12 @@ GameObject:
   - component: {fileID: 1121231094}
   - component: {fileID: 1121231093}
   - component: {fileID: 1121231092}
+  - component: {fileID: 1121231096}
   - component: {fileID: 1121231091}
   - component: {fileID: 1121231095}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: ball
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -456,6 +457,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1121231096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121231090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e8b023d1be3c4131a39ade069655b37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1580850827
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,12 +480,11 @@ GameObject:
   - component: {fileID: 1580850832}
   - component: {fileID: 1580850831}
   - component: {fileID: 1580850830}
-  - component: {fileID: 1580850833}
   - component: {fileID: 1580850829}
   - component: {fileID: 1580850828}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -590,18 +602,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1580850833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580850827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e8b023d1be3c4131a39ade069655b37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1618029470
 GameObject:
   m_ObjectHideFlags: 0

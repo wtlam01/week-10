@@ -23,6 +23,6 @@ public class CollisionDetect : MonoBehaviour
             Destroy(this.gameObject);
         }
 
-        Debug.Log(collider.gameObject.name)
+        Debug.Log(collider.gameObject.name);
     }
 }
